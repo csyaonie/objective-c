@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F8803B5F2222B1D80088438E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8803B5E2222B1D80088438E /* main.m */; };
 		F8803B672222CA1A0088438E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = F8803B662222CA1A0088438E /* Student.m */; };
+		F8D1863922242F52009298A7 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D1863822242F52009298A7 /* People.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		F8803B5E2222B1D80088438E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8803B652222CA1A0088438E /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		F8803B662222CA1A0088438E /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		F8D1863722242F52009298A7 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		F8D1863822242F52009298A7 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				F8803B5E2222B1D80088438E /* main.m */,
 				F8803B652222CA1A0088438E /* Student.h */,
 				F8803B662222CA1A0088438E /* Student.m */,
+				F8D1863722242F52009298A7 /* People.h */,
+				F8D1863822242F52009298A7 /* People.m */,
 			);
 			path = ObjectcDemo;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D1863922242F52009298A7 /* People.m in Sources */,
 				F8803B5F2222B1D80088438E /* main.m in Sources */,
 				F8803B672222CA1A0088438E /* Student.m in Sources */,
 			);

@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "People.h"
 
-@interface Student : NSObject
+@interface Student : People
 {
     NSString * name;
     int age;
@@ -22,5 +23,7 @@
 -(void) setName:(NSString *)_name;
 -(void) setAge:(int)_age;
 -(void) setName:(NSString *)_name setAge:(int)_age;
+-(id) initName:(NSString *)_name andAge:(int)_age;
 +(id) studentWithFuck:(NSString *) _name setAge:(int)_age;
+
 @end

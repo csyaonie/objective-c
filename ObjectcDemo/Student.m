@@ -31,6 +31,14 @@
     name=_name;
     age=_age;
 }
+- (id)initName:(NSString *)_name andAge:(int)_age{
+    self = [super init];
+    if(self){
+        name=_name;
+        age=_age;
+    }
+    return self;
+}
 + (id)studentWithFuck:(NSString *)_name setAge:(int)_age{
     Student * s=[[[self class] alloc] init];
     [s setName:_name setAge:_age];
